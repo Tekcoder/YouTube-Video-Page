@@ -4,35 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css"/>
     <title>YouTube Embedded Video Page</title>
   </head>
   <body>
-    <header class="home-search">
-      <img src="index.jpg" alt="YouTube image" />
-      <input
-        type="text"
-        name="search bar"
-        title="search bar"
-        placeholder="Search"
-      />
-      <button type="submit"><i class="fas fa-search"></i></button>
-    </header>
-    <section class="position">
-      <iframe
-        width="635"
-        height="397"
-        src="https://www.youtube.com/embed/V74l_zS1x8E"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
-    <aside class="position">
-      <div id="sidebar">
-        <img src="" alt="image1" />
-        <img src="" alt="image2" />
-        <img src="" alt="image3" />
+    <header id="nav-bar">
+      <img id="logo" src="index.jpg" alt="YouTube image" />
+      <div id="searchView">
+        <input
+          type="text"
+          name="search bar"
+          title="search bar"
+          placeholder="Search"
+        />
+        <button type="submit"><i class="fas fa-search"></i></button>
       </div>
-    </aside>
+      <div id="rightNavView">
+        <button id="searchButton" type="submit"><i class="fas fa-bars"></i></button>
+        <button id="searchButton" type="submit"><i class="fas fa-ellipsis-v"></i></button>
+        <button id="searchButton" type="submit"><i class="fas fa-upload"></i></button>
+      </div>
+    </header>
+    <section id="content">
+      <div id="videoContainer">
+        <iframe
+          width="835"
+          height="497"
+          src="https://www.youtube.com/embed/V74l_zS1x8E"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div id="video-info">
+          <p id="title">Contributing to Open Source Part I: The Easy Way</p>
+          <div id="video-actions">
+              <button type="submit"><i class="fas fa-thumbs-up"></i></button>
+              <button type="submit"><i class="fas fa-thumbs-down"></i></button>
+              <button type="submit"><i class="fas fa-share-square"></i></button>
+          </div>
+        </div>
+        <div id="video-info">
+            <p id="viewcount">50,875 views</p>
+            <button id="subscribe" type="submit">SUBSCRIBE</button>
+        </div>
+        <div id="video-avatar">
+            <img src="avatar.jpg" alt="YouTube image" />
+            <p id="user">The Odin Project</p>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <ul>
+          <li id="video-item">
+              <img id="logo" src="video1.jpg" alt="YouTube image" />
+              <div>
+                <p>How to create Custom Thumbnails</p>
+                <p>1000 views</p>
+              </div>
+          </li>
+          <li id="video-item">
+              <img id="logo" src="video2.jpg" alt="YouTube image" />
+              <div>
+                <p>Crazy Polic Car Chase</p>
+                <p>200k views</p>
+              </div>
+          </li>
+          <li id="video-item">
+              <img id="logo" src="video3.jpg" alt="YouTube image" />
+              <div>
+                <p>Vaping in 2019</p>
+                <p>10k views</p>
+              </div>
+          </li>
+        </ul>
+      </aside>
+    </section>
+    <script src="https://kit.fontawesome.com/2ed0af19bb.js"></script>
   </body>
 </html>
