@@ -34,6 +34,11 @@
     height: 30px;
 }
 
+.video-thumb{
+    width: 130px;
+    height: 100px;
+}
+
 #logo{
     width: 130px;
     height: 100px;
@@ -59,26 +64,26 @@
     margin-left: 10px;
 }
 
-#video-item{
+.video-item{
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
 
-#video-item img{
+.video-item img{
     width: 150px;
     height: 100px;
     margin-right: 20px;
 }
 
-#video-item div{
+.video-item div{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
-#video-info{
+.video-info{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;   
