@@ -1,4 +1,4 @@
-#nav-bar{
+#nav-bar {
     display: flex;
     width: 100%;
     height: 50px;
@@ -6,45 +6,45 @@
     justify-content: space-around;
 }
 
-#rightNavView{
+#rightNavView {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#rightNavView button{
+#rightNavView button {
     height: 35px;
     width: 40px;
     margin-left: 20px;
 }
 
-#searchView{
+#searchView {
     display: flex;
     align-items: center;
     width: 50%;
 }
 
-#searchView button{
+#searchView button {
     height: 35px;
     width: 40px;
 }
 
-#searchView input{
+#searchView input {
     width: 50%;
     height: 30px;
 }
 
-.video-thumb{
+.video-thumb {
     width: 130px;
     height: 100px;
 }
 
-#logo{
+#logo {
     width: 130px;
     height: 100px;
 }
 
-#content{
+#content {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -52,66 +52,66 @@
     padding: 40px;
 }
 
-#videoContainer{
+#videoContainer {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     height: 700px;
 }
 
-#sidebar{
+#sidebar {
     display: flex;
     margin-left: 10px;
 }
 
-.video-item{
+.video-item {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
 
-.video-item img{
+.video-item img {
     width: 150px;
     height: 100px;
     margin-right: 20px;
 }
 
-.video-item div{
+.video-item div {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
-.video-info{
+.video-info {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;   
 }
 
-#title, #viewcount, #user{
+#title, #viewcount, #user {
     font-size: 20px; 
 }
 
-#video-avatar{
+#video-avatar {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;   
 }
 
-#video-avatar img{
+#video-avatar img {
     border-radius: 70px;
     border-collapse: separate; 
     width: 70px;
     height: 70px; 
 }
 
-#video-avatar p{
+#video-avatar p {
     margin-left: 20px; 
 }
 
-#video-actions button{
+#video-actions button {
     margin-top: 10px;
     height: 50px;
     width: 80px;
@@ -119,7 +119,7 @@
     font-size: 20px;
 }
 
-#subscribe{
+#subscribe {
     background-color: red;
     color: white;
     width: 150px;
